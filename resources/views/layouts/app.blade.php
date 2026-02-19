@@ -11,7 +11,11 @@
     <nav class="bg-green-700 text-white shadow">
         <div class="max-w-6xl mx-auto px-4 py-3">
             <div class="flex justify-between items-center">
-                <a href="{{ route('home') }}" class="font-bold text-lg">Desa Lajer</a>
+                <a href="{{ route('home') }}" class="flex items-center gap-2 font-bold text-lg">
+    <img src="{{ asset('images/logo.png') }}" 
+         class="w-8 h-8 object-contain" alt="Logo Desa Lajer">
+    Desa Lajer
+</a>
                 
                 {{-- Mobile menu button --}}
                 <button id="menu-toggle" class="md:hidden focus:outline-none">
