@@ -11,7 +11,7 @@
     <nav class="bg-green-700 text-white shadow">
         <div class="max-w-6xl mx-auto px-4 py-3">
             <div class="flex justify-between items-center">
-                <a href="{{ route('home') }}" class="font-bold text-lg">🏡 Desa Lajer</a>
+                <a href="{{ route('home') }}" class="font-bold text-lg">Desa Lajer</a>
                 
                 {{-- Mobile menu button --}}
                 <button id="menu-toggle" class="md:hidden focus:outline-none">
@@ -34,7 +34,7 @@
                     @else
                         <a href="{{ route('login') }}" 
                            class="bg-white text-green-700 px-3 py-1 rounded font-semibold hover:bg-gray-100">
-                            Login Admin
+                            Login
                         </a>
                     @endauth
                 </div>
@@ -53,7 +53,7 @@
                 @else
                     <a href="{{ route('login') }}" 
                        class="bg-white text-green-700 px-3 py-1 rounded font-semibold hover:bg-gray-100 text-center">
-                        Login Admin
+                        Login
                     </a>
                 @endauth
             </div>
